@@ -1,7 +1,3 @@
-<script setup lang="ts">
-import { userSetter } from 'core-js/fn/symbol';
-</script>
-
 <template>
     <nav class="navbar navbar-expand-1g navbar-dark bg-dark">
         <div class="container-fluid">
