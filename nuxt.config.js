@@ -1,4 +1,13 @@
 module.exports = {
+  modules: [
+    '@nuxtjs/axios'
+  ],
+  axios: {
+      proxy: true     // proxy 사용
+  },
+  proxy: {
+      '/prefix-url': 'proxy-url'    // proxy url
+  },
   /*
   ** Headers of the page
   */
