@@ -1,4 +1,6 @@
 module.exports = {
+  srcDir: 'App/',
+  
   modules: [
     '@nuxtjs/axios'
   ],
