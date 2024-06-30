@@ -2,6 +2,7 @@
   <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/databinding">DataBinding</router-link> |
+    <router-link to="/databindingclass">DataBindingClass</router-link> |
   </nav>
   <router-view/>
 </template>
